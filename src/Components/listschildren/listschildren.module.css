@@ -1,0 +1,65 @@
+.parent {
+    width: 180px;
+    max-width: 200px;
+    height: 200px;
+    margin: 30px;
+    background-color: rgb(5, 0, 70);
+    color: white;
+    z-index: 100;
+    border-radius: 15px;
+    box-shadow: 2px 1px 3px white;
+}
+
+.parent .flex_display {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 70%;
+    line-height: 2px;
+    box-sizing: border-box;
+}
+
+.parent .flex_display .col_left {
+    width: 50%;
+}
+
+.parent .flex_display .col_left h4 {
+    color: rgb(224, 221, 221);
+}
+
+.parent .flex_display .col_left h1 {
+    font-size: 2rem;
+}
+
+.parent .flex_display .col_right {
+    width: 50%;
+    font-size: 2.1rem;
+    padding: 5px;
+    position: relative;
+    top: -12px;
+}
+.parent .row_display {
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+    height: 30%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.parent .row_display .row_data  {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 3%;
+    height: 100%;
+    box-sizing: border-box;
+    left: 50%;
+    width: 50%;
+}
+
+.parent .row_display .row_data i,
+.parent .row_display .row_data h4  {
+    padding: 5px;
+}
